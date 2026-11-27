@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kardex Counter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Kardex Counter</h1>
+      <p class="sub">Insumos que salen al counter</p>
+    </div>
+    <div class="who">
+      <label for="quien">Quién registra</label>
+      <input id="quien" type="text" placeholder="Tu nombre" autocomplete="off" maxlength="40">
+    </div>
+  </header>
+  <div id="banners"></div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Secciones"></nav>
+  <main id="view"></main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

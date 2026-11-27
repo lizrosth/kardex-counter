@@ -1,0 +1,16 @@
+KARDEX COUNTER - como subirlo a GitHub Pages
+
+1. Entra a github.com e inicia sesion. Arriba a la derecha: + > New repository.
+2. Nombre: kardex-counter. Marca "Public" (Pages gratis lo pide) y crea el repositorio.
+3. Pulsa "uploading an existing file" y arrastra estos 3 archivos:
+   index.html, style.css, app.js, data.js  (son 4 en total, sin LEEME.txt si no quieres)
+   Luego "Commit changes".
+4. Ve a Settings > Pages. En "Branch" elige main y la carpeta / (root). Guarda.
+5. Espera 1 o 2 minutos. Arriba aparece el enlace: https://TU-USUARIO.github.io/kardex-counter/
+6. Abre ese enlace SIEMPRE en el mismo navegador del computador del counter.
+
+IMPORTANTE
+- Los registros se guardan en ese navegador. Si borran los datos de navegacion, se pierden.
+  Usa Insumos > Descargar copia de vez en cuando.
+- Para cambiar los insumos o el stock, usa la pestana Insumos dentro de la app. No hace falta tocar el codigo.
+- data.js solo se usa la primera vez que se abre la app.
